@@ -28,8 +28,8 @@ body {
 #sideBar {
     padding: 20px;
     border: black 1px solid;
-    width: 250px;
-    margin: 0px 0px 10px 25px;
+    width: 600px;
+    margin: 0px 10px 10px 25px;
 }
 .mainLink i{
     cursor: pointer;
@@ -49,9 +49,8 @@ body {
     font-weight: 400;
 }
 #products{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    display: flex; flex-direction: row;
+    flex-wrap: wrap;
     justify-items: center; align-items: center;
     margin-left: 100px;
 }
@@ -60,14 +59,11 @@ body {
         display: none;
     }
     #products{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0px;
         justify-items: center; align-items: center;
         margin:0px
     }
     #products .product img{
-        width: 180px;
+        width: 190px;
     }
     #products .product{
         padding: 0px;
