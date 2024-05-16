@@ -64,13 +64,14 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 0px;
         justify-items: center; align-items: center;
-        margin-left:0px;
+        margin:0px
     }
     #products .product img{
         width: 180px;
     }
     #products .product{
-        padding: 5px;
+        padding: 0px;
+        margin: 0px;
     }
 }
 .product {
