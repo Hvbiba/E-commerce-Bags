@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+}
+.breadcrumb-item a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.breadcrumb {
+    padding: 10px 10px 10px 23px;
+}
+.listLinks a {
+    display: block;
+}
+/* show and hide*/
+.listLinks{
+    display: none;
+}
+#sideBar p{
+ font-size: 15px;
+ font-weight: 600;
+ font-family: "Libre Baskerville", serif;
+}
+#sideBar a{
+    font-size: 17px;
+    text-decoration: none;
+}
+#sideBar {
+    padding: 20px;
+    border: black 1px solid;
+    width: 250px;
+    margin: 0px 0px 10px 25px;
+}
+.mainLink i{
+    cursor: pointer;
+    padding: 0px 0px 0px 10px;
+}
+#div {
+    padding: 15px;
+}
+/* products*/
+#backBagspage nav , #toteBagspage nav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.product p {
+    padding: 0px;
+    text-align: center;
+    font-weight: 400;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center; align-items: center;
+    margin-left: 100px;
+}
+@media (max-width: 576px){
+    #sideBar {
+        display: none;
+    }
+    #products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-items: center; align-items: center;
+        margin-left:0px;
+    }
+}
+.product {
+    position: relative;
+}
+.product img {
+    display: block; /* Ensures the image takes up the entire space within its parent */
+}
+#out {
+    position: absolute;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    display: none;
+}
+/* tote bag item*/
+#bagName{
+    color: #808080;
+    letter-spacing: 2px;
+}
+#bagHeadline{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#bagPage{
+    display: flex;
+    justify-content: center;
+}
+#info {
+    margin: 20px 0px 0px 70px;
+}
+#mainImg , #other img {
+    border:#eee 1px solid;
+   margin: 7px;
+}
+#other img{
+    border:black 3px solid;
+}
+#counter {
+    display: flex;
+    justify-content: space-between;
+}
+#counter button{
+    width: 200px;
+    height: 50px;
+}
+#counter input{
+    width: 55px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+@media (max-width: 576px){
+    #other{
+        display: flex;
+    }
+    #other img{
+        width: 110px;
+    }
+    #bagPage {
+        flex-direction: column;
+    }
+    #mainImg{
+        margin: 0px 0px 5px 35px;
+    }
+    #info {
+        margin:20px;
+    }
+    #counter button{
+        margin-right: 50px;
+    }
+    #counter{
+        padding: 10px;
+    }
+}
