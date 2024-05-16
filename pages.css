@@ -51,8 +51,10 @@ body {
 #products{
     display: flex; flex-direction: row;
     flex-wrap: wrap;
-    justify-items: center; align-items: center;
     margin-left: 100px;
+}
+#products{
+    padding: 15px;
 }
 @media (max-width: 576px){
     #sideBar {
@@ -60,11 +62,10 @@ body {
         margin: 0px;
     }
     #products{
-        justify-items: center; align-items: center;
         margin:0px
     }
     #products .product img{
-        width: 180px;
+        width: 150px;
     }
     #products .product{
         padding: 0px;
