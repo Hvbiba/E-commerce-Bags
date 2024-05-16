@@ -62,9 +62,12 @@ body {
     #products{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
+        gap: 0px;
         justify-items: center; align-items: center;
         margin-left:0px;
+    }
+    #products .product{
+        padding: 5px;
     }
 }
 .product {
