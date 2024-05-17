@@ -62,7 +62,7 @@ body {
         margin: 0px;
     }
     #products{
-        margin:0px
+        margin:0px; margin-left: 10px;
     }
     #products .product img{
         width: 150px;
@@ -134,13 +134,13 @@ body {
         display: flex;
     }
     #other img{
-        width: 110px;
+        width: 105px;
     }
     #bagPage {
         flex-direction: column;
     }
     #mainImg{
-        margin: 0px 0px 5px 35px;
+        margin: 0px 0px 5px 33px;
     }
     #info {
         margin:20px;
