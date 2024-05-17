@@ -62,10 +62,10 @@ body {
         margin: 0px;
     }
     #products{
-        margin:0px; margin-left: 10px;
+        margin:0px; margin-left: 15px;
     }
     #products .product img{
-        width: 150px;
+        width: 155px;
     }
     #products .product{
         padding: 0px;
@@ -135,6 +135,8 @@ body {
     }
     #other img{
         width: 105px;
+        margin: 3px;
+        border:black 2px solid;
     }
     #bagPage {
         flex-direction: column;
