@@ -65,7 +65,7 @@ body {
         margin:0px; margin-left: 10px;
     }
     #products .product img{
-        width: 158px;
+        width: 160px;
     }
     #products .product{
         padding: 0px;
@@ -142,7 +142,7 @@ body {
         flex-direction: column;
     }
     #mainImg{
-        margin: 0px 3px 5px 30px;
+        margin: 0px 10px 5px 20px;
     }
     #info {
         margin:20px;
